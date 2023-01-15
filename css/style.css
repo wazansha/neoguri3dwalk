@@ -29,9 +29,6 @@ body {
     transition: .5s;
 }
 
-body[data-char = 'ragirl'] {
-    background: #3a1e5e;
-}
 /* position 고정하고 꽉 채우기 */
 .world {
     position: fixed;
@@ -94,6 +91,12 @@ body[data-char = 'ragirl'] {
     align-items: center;
     justify-content: center;
     height: 100vh;
+}
+
+.howto {
+    position: fixed;
+    z-index: 1;
+    font-size: 2rem;
 }
 
 .wall-title {
